@@ -25,7 +25,7 @@ Decision curve analysis (DCA) allows incorporation of clinical consequences, thu
 The result of a DCA is a graph drawn by plotting threshold probability on the x-axis and net benefit on y-axis, illustrating the trade-offs between benefit (true positives) and harm (false positives) as the threshold probability is varied across a range of reasonable threshold probabilities.
 The evaluation of a model is compared on the graph to two competing strategies, 1. a "treat all" strategy where the model is ignored and the decision is to treat for all patients, and 2. a "treat none" where the model results are once again ignored an no intervention is made.
 
-![](data-raw\dca-example.png)
+![](https://github.com/ddsjoberg/dcurves/raw/joss/data-raw/dca-example.png)
 
 ``dcurves`` is an R package for model evaluation using DCA.
 The package includes functionality for evaluating models predicting binary endpoints described in the initial DCA publication [@vickers2006decision].
